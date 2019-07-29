@@ -18,7 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
 
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Pacifico&display=swap" rel="stylesheet">
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/d284eef036.js"></script>
@@ -34,9 +34,10 @@
         <div class="nav-wrapper white">
             <a href="#" class="brand-logo center black-text">Portfolio</a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a class="nav-links black-text" href="#about">About</a></li>
+                <li><a class="nav-links black-text" href="#projects">Projects</a></li>
+                <li><a class="nav-links black-text" href="#resume">Resume</a></li>
+                <li><a class="nav-links black-text" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -54,9 +55,10 @@
         <div class="parallax"><img src="assets/images/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg"></div>
     </div>
 
-    <div class="section white">
+    <div class="section white scrollspy" id="about">
         <div class="row container">
             <h2 class="header bio">Hi, I'm Celisse!</h2>
+            <h5>I'm a Front-End Javascript Developer</h5>
             <div class="slideshow-container left">
 
                 <div class="mySlides fade">
@@ -75,12 +77,11 @@
                     <img class="responsive-img" src="assets/images/carouselD.jpg" style="width:100%">
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
             </div>
 
-            <div class="row">
                 <div class="col s12 m7 right">
                     <div class="card-panel">
                         <span class="grey-text text-darken-3">Celisse is an aspiring web developer located in Orlando,
@@ -94,21 +95,143 @@
                         </span>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg" width=1400></div>
     </div>
-    <div class="section white">
+    <div class="section white scrollspy" id="projects">
         <div class="row container">
-            <h2 class="header bio">Portfolio</h2>
+            <h2 class="header bio">Projects</h2>
+
+            <!-- PROJECT 1 -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/office.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- --- -->
+                <!-- PROJECT 2 -->
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/office.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <!-- --- -->
+            <!-- PROJECT 3 -->
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/office.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- --- -->
+        <!-- PROJECT 4 -->
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/office.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- --- -->
+        <!-- PROJECT 5 -->
+        <div class="col s12 m3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/office.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+        <!-- --- -->
+        <!-- PROJECT 6 -->
+        <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title<i
+                        class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i
+                        class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div></div>
+        <!-- --- -->
+    </div>
+    </div>
     </div>
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg"></div>
     </div>
-    <div class="section white">
+    <div class="section white scrollspy" id="resume">
         <div class="row container">
             <h2 class="header bio">Resume</h2>
         </div>
@@ -116,7 +239,7 @@
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg" width=1400></div>
     </div>
-    <div class="section white">
+    <div class="section white scrollspy" id="contact">
         <div class="row container">
             <h2 class="header bio">Contact</h2>
         </div>

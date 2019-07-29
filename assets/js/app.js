@@ -22,3 +22,9 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 3500); // Change image every 3.5 seconds
 }
+
+// SCROLLSPY
+
+$(document).ready(function(){
+  $('.scrollspy').scrollSpy();
+});
