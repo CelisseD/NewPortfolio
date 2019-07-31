@@ -62,9 +62,6 @@ body {
   background-color: rgba(0,0,0,0.3);
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
