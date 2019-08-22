@@ -1,6 +1,24 @@
 body {
-  font-family: "Poppins";
+  font-family: "Poppins"; 
 }
+
+.contact-icons {
+  color: #2BBBAD;
+  font-size: 80px;
+};
+
+a:link {
+  color: #2BBBAD;
+};
+
+a:visited {
+  color: #2BBBAD;
+};
+
+a:active {
+  color: #2BBBAD;
+}
+
 
 #nav-mobile {
   color: black;
